@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Privacy from './Privacy';
+import Terms from './Terms';
+import Support from './Support';
+
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route path='/' exact={true} component={App}></Route>
+      <Route path='/privacy' component={Privacy}></Route>
+      <Route path='/terms' component={Terms}></Route>
+      <Route path='/support' component={Support}></Route>
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
