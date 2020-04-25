@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav>
             <div class="nav-wrapper indigo lighten-2">
-                <LinkWrapper to="/" class="brand-logo center">HelpMaciOS</LinkWrapper>
+                <LinkWrapper to="/" class="brand-logo right">HelpMaciOS</LinkWrapper>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><LinkWrapper to="/home">List of Tutorials</LinkWrapper></li>
                     <li><LinkWrapper to="/terms">Terms & Conditions</LinkWrapper></li>
