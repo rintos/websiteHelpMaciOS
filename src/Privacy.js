@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from './Header';
+import LinkWrapper from './LinkWrapper';
 
 const Privacy = () => {
 
@@ -21,8 +22,8 @@ const Privacy = () => {
                     The app does use third party services that may collect information used to identify you.
                     Link to privacy policy of third party service providers used by the app
                 </a>
-            <a href="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</a>
-            <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+            <LinkWrapper to="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</LinkWrapper>
+            <LinkWrapper to="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</LinkWrapper>
 
             <h5>Log Data</h5>
                 <a>

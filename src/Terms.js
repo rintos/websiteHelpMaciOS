@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from './Header';
+import LinkWrapper from './LinkWrapper';
 
 const Terms = () => {
 
@@ -15,8 +16,8 @@ The HelpMaciOS app stores and processes personal data that you have provided to 
 true
 The app does use third party services that declare their own Terms and Conditions.
 Link to Terms and Conditions of third party service providers used by the app
-<a href="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</a>
-<a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
+<LinkWrapper to="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</LinkWrapper>
+<LinkWrapper to="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</LinkWrapper>
 You should be aware that there are certain things that Victor Soares de Almeida will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Victor Soares de Almeida cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
 If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
 Along the same lines, Victor Soares de Almeida cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Victor Soares de Almeida cannot accept responsibility.
