@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import Privacy from './Privacy';
 import Terms from './Terms';
 import Support from './Support';
+import About from './About';
+import Home from './Home';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
@@ -17,6 +19,8 @@ ReactDOM.render(
       <Route path='/privacy' component={Privacy}></Route>
       <Route path='/terms' component={Terms}></Route>
       <Route path='/support' component={Support}></Route>
+      <Route path='/about' component={About}></Route>
+      <Route path='/home' component={Home}></Route>
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
