@@ -25,6 +25,10 @@ const Privacy = () => {
             <LinkWrapper to="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</LinkWrapper>
             <LinkWrapper to="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</LinkWrapper>
 
+            <h5>Technical basics</h5>
+                <a>
+                The application generates the possibility of local storage of information that comes from the online service without the need to create a user account. Shares downloaded images to other applications. You need internet access for information.
+                </a>
             <h5>Log Data</h5>
                 <a>
                     I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
